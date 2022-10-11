@@ -1,10 +1,11 @@
-<?php 
-            include_once 'todos.php';
+<?php
+    include_once 'todos.php';
 
-            $todos = new Todos();
+    $todos = new Todos();
 
-            if(isset($_POST['todo'])){
-                $todos->nuevoTodo($_POST['todo']);
-            }
+    if(isset($_POST['todo'])){
+        $todos->nuevoTodo($_POST['todo']);
+    }
 
-        ?>
+
+?>
